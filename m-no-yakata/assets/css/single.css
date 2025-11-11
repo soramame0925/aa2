@@ -33,8 +33,8 @@ body.single,
 
 .mno-single-title {
   text-align: center;
-  font-size: clamp(1.5rem, 5vw, 2.2rem);
-  margin: 24px auto 16px;
+  font-size: clamp(0.9rem, 3.5vw, 2rem);
+  margin: 8px auto 18px;
   line-height: 1.3;
 }
 
