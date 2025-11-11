@@ -51,6 +51,13 @@ add_action('wp_enqueue_scripts', function(){
 
 //ボトムシートJS
 add_action('wp_enqueue_scripts', function() {
+	wp_enqueue_script(
+    'mno-no-zoom',
+    get_template_directory_uri() . '/assets/js/no-zoom.js',
+    [],
+    filemtime(get_template_directory() . '/assets/js/no-zoom.js'),
+    true
+  );
   if (is_page_template('page-discover.php')) {
     wp_enqueue_script(
       'mno-discover',
