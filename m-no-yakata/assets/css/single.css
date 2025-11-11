@@ -32,9 +32,10 @@ body.single,
 }
 
 .mno-single-title {
-  text-align: center;
+  text-align: left;
   font-size: clamp(0.9rem, 3.5vw, 2rem);
-  margin: 8px auto 18px;
+  font-weight: 700;
+  margin: 6px 0 12px;
   line-height: 1.3;
 }
 
